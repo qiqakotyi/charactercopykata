@@ -1,6 +1,6 @@
 # Character Copy Kata
 
-This project demonstrates a character copying system using a Copier class, integrated with a RESTful API. The application supports single-character and multi-character copying, with robust unit tests.
+This project demonstrates a character copying system using a Copier class, integrated with a RESTful API. The application supports single-character and multi-character copying, with unit tests.
 
 ## Table of Contents
 1. [Character Copy Kata](#character-copy-kata)
