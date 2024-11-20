@@ -8,7 +8,8 @@ This project demonstrates a character copying system using a Copier class, integ
 3. [Setup Instructions](#setup-instructions)
 4. [API Endpoints](#api-endpoints)
 5. [Testing the Application](#testing-the-application)
-6. [Contact](#contact)
+6. [Development Notes](#development-notes)
+7. [Contact](#contact)
 
 ## Prerequisites
 
@@ -69,6 +70,25 @@ Passed CopierTests.CopyMultiple_ShouldCopyMultipleCharactersUntilNewline
 Passed CopierTests.CopyMultiple_ShouldStopWhenNewlineIsEncountered
 ```
 
+## Development Notes
+
+### Project Structure
+```
+CharacterCopyKata/
+├── Controllers/                 
+│   ├── Copier.cs                
+├── Core/                        
+│   ├── Copier.cs                
+├── Interfaces/                  
+│   ├── IDestination.cs          
+│   ├── ISource.cs               
+├── Services/                    
+│   ├── DestinationImplementation.cs
+│   ├── SourceImplementation.cs     
+├── Tests/                       
+│   ├── CopierTests.cs           
+├── Program.cs                  
+```
 ## Contact
 
 For any questions or support, please contact:
